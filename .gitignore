@@ -1,3 +1,4 @@
+discord-haskell.cabal
 .cabal-sandbox/*
 .stack-work/*
 .stack/*
