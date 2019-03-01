@@ -2,9 +2,9 @@ extra-package-dbs: []
 packages:
 - '.'
 
-resolver: lts-12.10
+resolver: lts-13.8
 
 extra-deps: []
-# 
+#
 # nix:
 #   packages: [ zlib, gmp ]

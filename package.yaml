@@ -1,0 +1,47 @@
+name:                discord-haskell
+version:             0.8.1
+github:              "aquarial/discord-haskell"
+license:             MIT
+author:              "Karl"
+maintainer:          "ksfish5@gmail.com"
+copyright:           "2019 Karl"
+
+extra-source-files:
+- README.md
+
+# Metadata used when publishing your package
+synopsis:            Write bots for Discord in Haskell
+category:            Network
+
+# To avoid duplicated efforts in documentation and dealing with the
+# complications of embedding Haddock markup inside cabal files, it is
+# common to point users to the README.md file.
+description:         Functions and data types to write discord bots.
+                     Official discord docs <https://discordapp.com/developers/docs/reference>.
+                     .
+                     See the project readme for quickstart notes
+                     <https://github.com/aquarial/discord-haskell#discord-haskell>
+
+dependencies:
+- base >= 4.7 && < 5
+- aeson
+- async
+- bytestring
+- base64-bytestring
+- containers
+- data-default
+- http-client
+- iso8601-time
+- MonadRandom
+- req
+- JuicyPixels
+- safe-exceptions
+- text
+- time
+- unordered-containers
+- vector
+- websockets
+- wuss
+
+library:
+  source-dirs: src
